@@ -1,0 +1,136 @@
+{
+    "type": "object",
+    "properties": {
+      "patientepicid": {
+        "type": "string"
+      },
+      "deid_note_key": {
+        "type": "string"
+      },
+      "ADEs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ade_seq": {
+              "type": "number"
+            },
+            "Adverse event": {
+              "type": "string"
+            },
+            "Medication": {
+              "type": "string"
+            },
+            "Why medication possibly caused event": {
+              "type": "string"
+            },
+            "Verbatim phrases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "Physician Certainty": {
+              "type": "string",
+              "enum": ["Discussed as the cause of event",
+                 "Discussed as a potential cause",
+                 "not mentioned as cause by physician"
+              ]
+            },
+            "LLM Certainty": {
+              "type": "string",
+              "enum": ["Certain of causality",
+                 "potential cause",
+                 "unlikely cause"
+              ]
+            },
+            "MedDRA LLT": {
+              "type": "string"
+            },
+            "Change made": {
+              "type": "string",
+              "enum": ["No change made",
+                 "Dose modified",
+                 "Drug held",
+                 "Drug permanently discontinued",
+                 "Unclear"
+              ]
+            },
+            "Failure of Efficacy": {
+              "type": "string",
+              "enum": ["Yes", "Possibly", "No"]
+            },
+            "serious": {
+              "type": "string",
+              "enum": ["Yes", "No", "Unk"]
+            },
+            "reason_serious": {
+              "type": "string"
+            },
+            "unlabeled": {
+              "type": "string",
+              "enum": ["Yes", "No"]
+            },
+            "reason_unlabeled": {
+              "type": "string"
+            },
+            "present_illness": {
+              "type": "string",
+              "enum": ["yes", "no", "unk"]
+            },
+            "event_happened_to_patient": {
+              "type": "string",
+              "enum": ["yes", "no"]
+            },
+            "reason_event_happened_to_patient": {
+              "type": "string"
+            },
+            "med_not_specified": {
+              "type": "string",
+              "enum": ["yes", "no"]
+            },
+            "reason_med_not_specified": {
+              "type": "string"
+            },
+            "med_used_to_treat_adverse_event": {
+              "type": "string",
+              "enum": ["yes", "no"]
+            },
+            "reason_med_used_to_treat_adverse_event": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "ade_seq",
+            "Adverse event",
+            "Medication",
+            "Why medication possibly caused event",
+            "Verbatim phrases",
+            "Physician Certainty",
+            "LLM Certainty",
+            "MedDRA LLT",
+            "Change made",
+            "Failure of Efficacy",
+            "serious",
+            "reason_serious",
+            "unlabeled",
+            "reason_unlabeled",
+            "present_illness",
+            "event_happened_to_patient",
+            "reason_event_happened_to_patient",
+            "med_not_specified",
+            "reason_med_not_specified",
+            "med_used_to_treat_adverse_event",
+            "reason_med_used_to_treat_adverse_event"
+          ]
+        }
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "patientepicid",
+      "deid_note_key",
+      "ADEs"
+    ]
+}

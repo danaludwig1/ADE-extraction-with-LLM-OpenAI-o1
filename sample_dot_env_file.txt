@@ -1,0 +1,22 @@
+# This is a sample file for your environmental variables.
+# Your file name should be ".env".
+# Be sure to replace "OPENAI_API_KEY" with your personal account key
+# Assigned by the LLM server vendor.
+OPENAI_API_KEY="<your API key with server vendor>"
+BASE_URL="https://api.openai.com/v1"
+OUT_DIR_PREFIX="Data"
+OUT_DIR_1_PASS="Out_pass_1"
+OUT_DIR_2_PASS="Out_pass_2"
+IN_DIR_PREFIX="Data"
+IN_NOTE_DIR="In_Notes"
+MODEL_ID = "o1"
+DEPLOYMENT_ID = "o1-2024-12-17"
+# Prices per token for GPT-5.2
+# PRICE_PER_IN_TOKEN =  0.00000175  
+# PRICE_PER_OUT_TOKEN = 0.000014
+# Prices per token for "o1", which presumably requires more processing than GPT-5.2
+PRICE_PER_IN_TOKEN =    0.000015
+PRICE_PER_OUT_TOKEN =   0.000060
+SLEEP_SECS = 5            # seconds to sleep between note extracts
+DIR_DELIMITER = "/"       # directory path delimiter for Linux/Unix/MacOS
+# DIR_DELIMITER = "\\"    # directory path delimiter for Windows

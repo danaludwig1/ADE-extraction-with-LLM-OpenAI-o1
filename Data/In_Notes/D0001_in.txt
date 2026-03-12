@@ -1,0 +1,4 @@
+The following is a new clinical note ==========================
+patientepicid: 12341234; Service date: 2023-09-09 00:00:00.000
+deid_note_key: D0001; Note Type: Progress Notes; Note Class: OP-care-Psychiatry
+35 y/o male with a history of anxiety was prescribed sertraline 12.5mg/day. The next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome. Today, I am prescribing a dose of buspirone 7.5mg BID and follow-up in a month.

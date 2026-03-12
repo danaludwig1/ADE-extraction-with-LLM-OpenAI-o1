@@ -1,0 +1,32 @@
+{
+    "patientepicid": "23452345",
+    "deid_note_key": "D0002",
+    "ADEs": [
+        {
+            "ade_seq": 1,
+            "Adverse event": "near syncope",
+            "Medication": "HCTZ",
+            "Why medication possibly caused event": "The near syncope occurred right after the dose of HCTZ was doubled, which can lower blood pressure and lead to postural hypotension. The physician specifically noted concern for possible postural hypotension as a result of the increased HCTZ dose.",
+            "Verbatim phrases": [
+                "She had a near syncope episode the next day so I recommend she go back to HCTZ 12.5mg/day from concern for possible postural hypotension."
+            ],
+            "Physician Certainty": "Discussed as a potential cause",
+            "LLM Certainty": "potential cause",
+            "MedDRA LLT": "Presyncope",
+            "Change made": "Dose modified",
+            "Failure of Efficacy": "No",
+            "serious": "No",
+            "reason_serious": "",
+            "unlabeled": "No",
+            "reason_unlabeled": "",
+            "present_illness": "yes",
+            "event_happened_to_patient": "yes",
+            "reason_event_happened_to_patient": "Temporal relationship with dose change, known side effect",
+            "med_not_specified": "no",
+            "reason_med_not_specified": "",
+            "med_used_to_treat_adverse_event": "no",
+            "reason_med_used_to_treat_adverse_event": ""
+        }
+    ]
+}
+

@@ -1,0 +1,4 @@
+The following is a new clinical note ==========================
+patientepicid: 23452345; Service date: 2025-10-18 00:00:00.000
+deid_note_key: D0002; Note Type: Progress Notes; Note Class: OP-care-Medicine
+***** ***** ***** presents to me as a ***** y.o. female for follow-up of hypertension. She has been taking lisinopril 20mg/day, amlodipine 10mg/day and HCTZ 12.5mg/day with average BP of 155/90 sitting. Last week I recommended increasing HCTZ to 25mg/day. She had a near syncope episode the next day so I recommend she go back to HCTZ 12.5mg/day from concern for possible postural hypotension. She had no further problems, but her BP is still high at 150/89. After checking serum potassium and creatinine were normal I prescribe adding spironolactone 25 mg, and will re-check blood work and BP response in 2 weeks.

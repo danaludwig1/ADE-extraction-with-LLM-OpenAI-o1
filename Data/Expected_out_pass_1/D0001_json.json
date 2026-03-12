@@ -1,0 +1,42 @@
+{
+    "patientepicid": "12341234",
+    "deid_note_key": "D0001",
+    "ADEs": [
+        {
+            "ade_seq": 1,
+            "Adverse event": "fever",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "The patient developed fever soon after starting sertraline, which can be part of an excessive serotonergic effect, and the physician discontinued the drug out of concern for serotonin syndrome.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ]
+        },
+        {
+            "ade_seq": 2,
+            "Adverse event": "tremors",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Sertraline can induce neuromuscular hyperactivity, including tremors, and these symptoms appeared soon after starting the medication.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ]
+        },
+        {
+            "ade_seq": 3,
+            "Adverse event": "worsening anxiety",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Although sertraline is used to treat anxiety, it can sometimes paradoxically exacerbate anxiety, and the patient experienced worsening anxiety soon after initiating therapy.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ]
+        },
+        {
+            "ade_seq": 4,
+            "Adverse event": "serotonin syndrome",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Serotonin syndrome is a known risk with SSRIs like sertraline, and the fever, tremors, and worsening anxiety triggered immediate discontinuation of the drug due to concern for serotonin syndrome.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ]
+        }
+    ]
+}

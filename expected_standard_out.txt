@@ -1,0 +1,32 @@
+starting first pass
+Starting Pass 1 ==============================
+about to extract note D0001 ; time is 2026-03-11 14:06:10.757420
+responses started at 2026-03-11 14:06:10.784466
+responses returned at 2026-03-11 14:07:13.258346
+completed note D0001 at 2026-03-11 14:07:13.258865 ; waiting 5 seconds
+about to extract note D0002 ; time is 2026-03-11 14:07:18.268422
+responses started at 2026-03-11 14:07:18.299316
+responses returned at 2026-03-11 14:08:01.203946
+completed last note D0002 at 2026-03-11 14:08:01.205781
+tot_in_tokens =  2904 ; tot_out_tokens =  12920 ; tot_reason_tokens =  6080
+price_per_out_token= 6e-05 price_per_in_token= 1.5e-05
+tot_out, tot_in, tot_both are 0.7752 0.04356 0.81876
+cost for model  o1 ; in= 0.04356 ; out= 0.7752 ; TOTAL= 0.81876
+starting second pass
+Starting Pass 2 ==============================
+about to extract note D0002 ; time is 2026-03-11 14:08:01.207437
+responses returned at 2026-03-11 14:08:46.531161
+in_ae_cnt= 1 ; out_ae_cnt= 1
+note completed at 2026-03-11 14:08:46.532246
+completed note D0002 at 2026-03-11 14:08:46.532856 ; waiting 5 seconds
+about to extract note D0001 ; time is 2026-03-11 14:08:51.541677
+responses returned at 2026-03-11 14:09:54.381185
+in_ae_cnt= 4 ; out_ae_cnt= 4
+note completed at 2026-03-11 14:09:54.382449
+completed note D0001 at 2026-03-11 14:09:54.383065
+tot_in_tokens =  1987 ; tot_out_tokens =  16052 ; tot_reason_tokens =  7168
+cost for model  o1 ; prompt= $0.029805; completion= $0.96312; TOTAL = $0.992925
+
+program completed at 2026-03-11 14:09:54.383221
+finished second pass
+

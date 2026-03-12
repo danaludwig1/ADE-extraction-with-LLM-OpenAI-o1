@@ -1,0 +1,107 @@
+{
+    "patientepicid": "12341234",
+    "deid_note_key": "D0001",
+    "ADEs": [
+        {
+            "ade_seq": 1,
+            "Adverse event": "fever",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "The patient developed fever soon after starting sertraline, which can be part of an excessive serotonergic effect, and the physician discontinued the drug out of concern for serotonin syndrome.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ],
+            "Physician Certainty": "Discussed as the cause of event",
+            "LLM Certainty": "Certain of causality",
+            "MedDRA LLT": "Pyrexia",
+            "Change made": "Drug permanently discontinued",
+            "Failure of Efficacy": "No",
+            "serious": "No",
+            "reason_serious": "",
+            "unlabeled": "No",
+            "reason_unlabeled": "",
+            "present_illness": "yes",
+            "event_happened_to_patient": "yes",
+            "reason_event_happened_to_patient": "Symptoms manifested while taking medication",
+            "med_not_specified": "no",
+            "reason_med_not_specified": "Medication was specified",
+            "med_used_to_treat_adverse_event": "no",
+            "reason_med_used_to_treat_adverse_event": "Medication was discontinued, not used for treating the event"
+        },
+        {
+            "ade_seq": 2,
+            "Adverse event": "tremors",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Sertraline can induce neuromuscular hyperactivity, including tremors, and these symptoms appeared soon after starting the medication.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ],
+            "Physician Certainty": "Discussed as the cause of event",
+            "LLM Certainty": "Certain of causality",
+            "MedDRA LLT": "Tremor",
+            "Change made": "Drug permanently discontinued",
+            "Failure of Efficacy": "No",
+            "serious": "No",
+            "reason_serious": "",
+            "unlabeled": "No",
+            "reason_unlabeled": "",
+            "present_illness": "yes",
+            "event_happened_to_patient": "yes",
+            "reason_event_happened_to_patient": "Symptoms manifested while taking medication",
+            "med_not_specified": "no",
+            "reason_med_not_specified": "Medication was specified",
+            "med_used_to_treat_adverse_event": "no",
+            "reason_med_used_to_treat_adverse_event": "Medication was discontinued, not used for treating the event"
+        },
+        {
+            "ade_seq": 3,
+            "Adverse event": "worsening anxiety",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Although sertraline is used to treat anxiety, it can sometimes paradoxically exacerbate anxiety, and the patient experienced worsening anxiety soon after initiating therapy.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ],
+            "Physician Certainty": "Discussed as the cause of event",
+            "LLM Certainty": "Certain of causality",
+            "MedDRA LLT": "Anxiety aggravated",
+            "Change made": "Drug permanently discontinued",
+            "Failure of Efficacy": "No",
+            "serious": "No",
+            "reason_serious": "",
+            "unlabeled": "No",
+            "reason_unlabeled": "",
+            "present_illness": "yes",
+            "event_happened_to_patient": "yes",
+            "reason_event_happened_to_patient": "Symptoms manifested while taking medication",
+            "med_not_specified": "no",
+            "reason_med_not_specified": "Medication was specified",
+            "med_used_to_treat_adverse_event": "no",
+            "reason_med_used_to_treat_adverse_event": "Medication was discontinued, not used for treating the event"
+        },
+        {
+            "ade_seq": 4,
+            "Adverse event": "serotonin syndrome",
+            "Medication": "sertraline",
+            "Why medication possibly caused event": "Serotonin syndrome is a known risk with SSRIs like sertraline, and the fever, tremors, and worsening anxiety triggered immediate discontinuation of the drug due to concern for serotonin syndrome.",
+            "Verbatim phrases": [
+                "the next day patient was having fever and tremors, with worsening anxiety, and we discontinued the sertraline out of concern for possible serotonine syndrome"
+            ],
+            "Physician Certainty": "Discussed as the cause of event",
+            "LLM Certainty": "Certain of causality",
+            "MedDRA LLT": "Serotonin syndrome",
+            "Change made": "Drug permanently discontinued",
+            "Failure of Efficacy": "No",
+            "serious": "Yes",
+            "reason_serious": "Serotonin syndrome is potentially life-threatening",
+            "unlabeled": "No",
+            "reason_unlabeled": "",
+            "present_illness": "yes",
+            "event_happened_to_patient": "yes",
+            "reason_event_happened_to_patient": "Symptoms manifested while taking medication",
+            "med_not_specified": "no",
+            "reason_med_not_specified": "Medication was specified",
+            "med_used_to_treat_adverse_event": "no",
+            "reason_med_used_to_treat_adverse_event": "Medication was discontinued, not used for treating the event"
+        }
+    ]
+}
+

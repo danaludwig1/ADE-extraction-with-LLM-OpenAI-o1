@@ -1,0 +1,51 @@
+{
+    "type": "object",
+    "properties": {
+      "patientepicid": {
+        "type": "string"
+      },
+      "deid_note_key": {
+        "type": "string"
+      },
+      "ADEs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ade_seq": {
+              "type": "number"
+            },
+            "Adverse event": {
+              "type": "string"
+            },
+            "Medication": {
+              "type": "string"
+            },
+            "Why medication possibly caused event": {
+              "type": "string"
+            },
+            "Verbatim phrases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "ade_seq",
+            "Adverse event",
+            "Medication",
+            "Why medication possibly caused event",
+            "Verbatim phrases"
+          ]
+        }
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "patientepicid",
+      "deid_note_key",
+      "ADEs"
+    ]
+}
